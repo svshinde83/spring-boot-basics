@@ -1,6 +1,6 @@
-package test.example.ws.service;
+package com.abc.example.ws.service;
 
-import test.example.ws.model.Greeting;
+import com.abc.ws.model.Greeting;
 
 import java.util.concurrent.Future;
 

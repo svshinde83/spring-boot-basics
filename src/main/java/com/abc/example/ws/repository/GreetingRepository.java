@@ -1,8 +1,8 @@
-package test.example.ws.repository;
+package com.abc.example.ws.repository;
 
+import com.abc.ws.model.Greeting;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import test.example.ws.model.Greeting;
 
 /**
  * Created by svshinde83 on 24/01/2017.

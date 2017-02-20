@@ -1,4 +1,4 @@
-package test.example.ws.util;
+package com.abc.example.ws.util;
 
 import java.util.concurrent.CancellationException;
 import java.util.concurrent.ExecutionException;

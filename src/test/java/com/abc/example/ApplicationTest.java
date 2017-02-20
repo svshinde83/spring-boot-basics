@@ -1,11 +1,11 @@
-package test.example;
+package com.abc.example;
 
+import com.abc.example.ws.service.GreetingService;
 import org.junit.After;
 import org.junit.Before;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 import test.example.ws.AbstractControllerTest;
-import test.example.ws.service.GreetingService;
 
 
 /**

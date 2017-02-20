@@ -1,4 +1,4 @@
-package test.example.ws.service;
+package com.abc.example.ws.service;
 
 import javax.persistence.EntityExistsException;
 import org.slf4j.Logger;
@@ -11,11 +11,11 @@ import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
-import test.example.ws.model.Greeting;
+import com.abc.ws.model.Greeting;
 
 import javax.persistence.NoResultException;
 import java.util.Collection;
-import test.example.ws.repository.GreetingRepository;
+import com.abc.example.ws.repository.GreetingRepository;
 
 /**
  * Created by svshinde83 on 24/01/2017.

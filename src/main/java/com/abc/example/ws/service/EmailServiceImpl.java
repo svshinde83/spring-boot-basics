@@ -1,11 +1,11 @@
-package test.example.ws.service;
+package com.abc.example.ws.service;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
-import test.example.ws.model.Greeting;
-import test.example.ws.util.AsyncResponse;
+import com.abc.ws.model.Greeting;
+import  com.abc.example.ws.util.AsyncResponse;
 import java.util.concurrent.Future;
 
 /**

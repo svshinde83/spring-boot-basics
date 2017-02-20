@@ -1,4 +1,4 @@
-package test.example.ws.model;
+package com.abc.ws.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
