@@ -1,4 +1,4 @@
-package test.example.ws;
+package com.abc.example.ws;
 
 /**
  * Created by svshinde83 on 23/01/2017.

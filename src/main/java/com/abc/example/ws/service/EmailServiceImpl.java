@@ -5,7 +5,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 import com.abc.ws.model.Greeting;
-import  com.abc.example.ws.util.AsyncResponse;
+import com.abc.example.ws.util.AsyncResponse;
 import java.util.concurrent.Future;
 
 /**
@@ -22,7 +22,7 @@ public class EmailServiceImpl implements EmailService {
     public Boolean send(Greeting greeting) {
         logger.info("> send");
 
-        Boolean success = Boolean.FALSE;
+        Boolean success;
 
         // Simulate method execution time
         long pause = 5000;

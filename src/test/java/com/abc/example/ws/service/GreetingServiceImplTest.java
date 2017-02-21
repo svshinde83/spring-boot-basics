@@ -1,4 +1,4 @@
-package test.example.ws.service;
+package com.abc.example.ws.service;
 
 import com.abc.example.ws.service.GreetingService;
 import com.abc.ws.model.Greeting;
